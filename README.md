@@ -1,4 +1,4 @@
-# ✨ Distilbart-Summarizer: Intelligent Summarization for Long-Form Text
+# Distilbart-Summarizer: Intelligent Summarization for Long-Form Text
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -15,7 +15,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Example Results](#-example-results)
@@ -28,7 +28,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **Handle Arbitrarily Long Texts:** No more "input too long" errors. Summarize documents of any length.
 - **Recursive Summarization:** Implements a hierarchical strategy for high-quality final summaries.
@@ -46,7 +46,7 @@
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The core of **Distilbart-Summarizer** is its chunk-and-summarize pipeline. The process can be visualized as follows:
 
@@ -74,7 +74,7 @@ graph TD
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 This project uses `Docker` for dependency isolation and reproducible environments.
 
@@ -111,7 +111,7 @@ This project uses `Docker` for dependency isolation and reproducible environment
 
 ---
 
-## 🛠️ Advanced Usage
+## Advanced Usage
 
 You can customize the summarization process by passing parameters during initialization or to the `summarize` method. The code is the same, just remember to run it within the `pipenv` environment.
 
@@ -149,7 +149,7 @@ print(short_summary)
 
 ---
 
-## 🖥️ Command-Line Interface (CLI)
+## Command-Line Interface (CLI)
 
 For quick use, a CLI script is provided. Run it using `pipenv run` or from an activated `pipenv shell`.
 
@@ -170,13 +170,13 @@ pipenv run python summarize_cli.py \
 
 ---
 
-## 📜 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Hugging Face](https://huggingface.co/) for their incredible `transformers` library.
 - The research teams behind BART, T5, and other foundational summarization models.
